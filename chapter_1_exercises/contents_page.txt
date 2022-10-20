@@ -1,0 +1,2 @@
+print("At the end of each Chapter there is an opportunity to complete additional exercises aka side_quests")
+print("I want to capture each of these additional exercises within their own bespoke folders")
