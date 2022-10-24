@@ -6,4 +6,15 @@ if int_n < 100:
 else:
     print("The condition is false")
 
+m = input("Let's take this further; insert another integer value:\n")
+int_m = int(m)
+
+if int_m < 18:
+    print("You're still a child; you can't get on this ride!")
+elif int_m < 21:
+    print("Although you're over 18 you are still not of the legal drinking age; no alcohol for you!")
+else:
+    print("Welcome!")
+
+
 
