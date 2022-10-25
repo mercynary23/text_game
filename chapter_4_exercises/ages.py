@@ -10,4 +10,6 @@ elif int_user_age > 18 and int_user_age < 30:
 else:
     print("You're too old; stay home, you've done enough")
 
+print("Never fold")
+
 
