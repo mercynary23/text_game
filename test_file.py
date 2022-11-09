@@ -4,3 +4,5 @@ print("Dig Deeper")
 print("Barely")
 print("I need to get serious again; I'm slacking lol")
 print("Wishing on a star")
+print("Tomorrow is a new day :D ")
+
