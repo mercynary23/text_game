@@ -7,4 +7,4 @@ print("Wishing on a star")
 print("Tomorrow is a new day :D ")
 print("Are you a gunman?")
 print("The remorse")
-
+print("I worked really hard today")
