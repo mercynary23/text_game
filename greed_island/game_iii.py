@@ -10,17 +10,17 @@ def play_game():
     print("Welcome to Greed Island - are you ready to Die? XD")
     #ui_name = input("What is your name, Hunter?\n")
     ui_name = user_name_prompt()
-    ui_dir = input(f"Where next {ui_name}?\n")
+    ui_action = input(f"What next {ui_name}?\n")
 
-    if ui_dir == 'N' or ui_dir == 'n':
+    if ui_action == 'N' or ui_action == 'n':
         print(f"Beware of the North {ui_name}")
-    elif ui_dir == 'E' or ui_dir == 'e':
+    elif ui_action == 'E' or ui_action == 'e':
         print("I hear talk of grassland trolls in the East...")
-    elif ui_dir == 'S' or ui_dir == 's':
+    elif ui_action == 'S' or ui_action == 's':
         print("The night is dark and full of terrors in the South")
-    elif ui_dir == 'W' or ui_dir == 'w':
+    elif ui_action == 'W' or ui_action == 'w':
         print(f"Are you sure this is wise {ui_name}?")
-    elif ui_dir in ['I', 'i']:
+    elif ui_action in ['I', 'i']:
         print("You've chosen to view your inventory:\n")
         for item in user_inventory:
             print(f"You have: {item} ")
